@@ -79,19 +79,19 @@ export default function Dashboard(props: Props) {
           </ListItemIcon>
           <ListItemText primary="Overview" />
         </ListItem>
-        <ListItem button onClick={() => router.push("/dashboard/analytics")}>
+        <ListItem button onClick={() => router.push("/dashboard")}>
           <ListItemIcon>
             <PieChartOutlineIcon />
           </ListItemIcon>
           <ListItemText primary="Analytics" />
         </ListItem>
-        <ListItem button onClick={() => router.push("/dashboard/products")}>
+        <ListItem button onClick={() => router.push("/dashboard")}>
           <ListItemIcon>
             <StorefrontIcon />
           </ListItemIcon>
           <ListItemText primary="E-commerce" />
         </ListItem>
-        <ListItem button onClick={() => router.push("/dashboard/products")}>
+        <ListItem button onClick={() => router.push("/dashboard")}>
           <ListItemIcon>
             <Topic />
           </ListItemIcon>
@@ -103,7 +103,7 @@ export default function Dashboard(props: Props) {
         General
       </Typography>
       <List>
-        <ListItem button onClick={() => router.push("/dashboard/products")}>
+        <ListItem button onClick={() => router.push("/dashboard")}>
           <ListItemIcon>
             <StorefrontIcon />
           </ListItemIcon>
@@ -121,7 +121,7 @@ export default function Dashboard(props: Props) {
           </ListItemIcon>
           <ListItemText primary="Products" />
           </ListItem>
-        <ListItem button onClick={() => router.push("/dashboard/category")}>
+        <ListItem button onClick={() => router.push("/dashboard")}>
           <ListItemIcon>
             <Category/>
           </ListItemIcon>
